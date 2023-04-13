@@ -23,12 +23,18 @@ public class NumberOp {
 		
 		/*
 		 * 코드에서 사용하는 숫자는 정수와 실수가 있고
-		 * 큰 정수(int, Integer)와 작은 정수(Long), 배정도 실수(double), 단정도 실수(float)가 있다.
+		 * 큰 정수(Long)와 작은 정수(int, Integer), 배정도 실수(double), 단정도 실수(float)가 있다.
 		 * 배정도 실수 : 소수점 이하 16자리까지 표시
 		 * 단정도 실수 : 소수점 이하 7자리까지 표시
 		 */
-		System.out.println(999_999_999); // int
-		System.out.println(999_999_999_999_999L); //Long
+		System.out.println(999_999_999); // int 9자리
+		System.out.println(999_999_999_999_999L); //Long 15자리
 	}
 }
 
+//VCS(Version Control System)
+//- 버전 관리 시스템
+//- 소스코드의 변경 추적하고 관리하는 시스템
+//- 어떤 내용을 누가 어느 시점에 변경했는지 History 관리
+//- git, svn 등이 많이 사용
+//- 2022년 기준 git 점유율이 90%이상 될 것이라고 예상
